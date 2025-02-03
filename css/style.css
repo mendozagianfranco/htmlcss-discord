@@ -12,16 +12,6 @@ button {
 
 /**** DEBUG ****/
 
-.debug .section-3 .content-1 {
-    background-color: #1e90ff;
-    height: 500px;
-}
-
-.debug .section-3 .content-2 {
-    background-color: #ffc0cb;
-    height: 500px;
-}
-
 .debug .section-4 .content-1 {
     background-color: #1e90ff;
     height: 500px;
@@ -144,7 +134,15 @@ nav .links {
 }
 
 .wrapper .content-2 {
-    flex-grow: 1;
+    width: 700px;
+    flex-shrink: 0;
+    padding: 30px;
+}
+
+.wrapper p {
+    line-height: 45px;
+    text-align: justify;
+    padding: 80px 0;
 }
 
 /**** HEADER ***/
@@ -183,7 +181,6 @@ main .section-1 .wrapper {
 
 main .section-1 .wrapper p {
     padding: 80px 0 70px;
-    line-height: 45px;
     text-align: justify;
 }
 
@@ -198,15 +195,6 @@ main .section-2 .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-main .section-2 .wrapper h2 {
-    padding-top: 70px;
-}
-
-main .section-2 .wrapper p {
-    padding: 80px 0;
-    line-height: 45px;
 }
 
 /* SECTION 3 */
