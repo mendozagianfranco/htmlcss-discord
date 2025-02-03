@@ -12,9 +12,9 @@ button {
 
 /**** DEBUG ****/
 
-.debug nav {
+/* .debug nav {
     background-color: #daa520;
-}
+} */
 
 .debug .section-1 .wrapper {
     background-color: #ee82ee;
@@ -117,6 +117,10 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.btn {
+    border-radius: 30px;
+}
+
 header,
 footer .section-7,
 .section-7 .wrapper {
@@ -142,8 +146,7 @@ nav .links {
     flex-grow: 2;
 }
 
-.wrapper .content-2,
-nav > * {
+.wrapper .content-2 {
     flex-grow: 1;
 }
 
@@ -151,10 +154,11 @@ nav > * {
 
 nav {
     display: flex;
+    font-size: 20px;
 }
 
-nav > * {
-    padding: 10px;
+nav .logo img {
+    height: 100%;
 }
 
 nav .links {
@@ -162,11 +166,12 @@ nav .links {
     list-style-type: none;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 80px;
 }
 
 nav .btn.login {
-    text-align: right;
+    text-align: center;
+    padding: 15px 25px;
 }
 
 /***** MAIN ****/
