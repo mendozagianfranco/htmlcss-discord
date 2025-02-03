@@ -12,15 +12,6 @@ button {
 
 /**** DEBUG ****/
 
-/* .debug nav {
-    background-color: #daa520;
-} */
-
-.debug .section-1 .wrapper {
-    background-color: #ee82ee;
-    height: 400px;
-}
-
 .debug .section-2 .content-1 {
     background-color: #1e90ff;
     height: 500px;
@@ -118,7 +109,7 @@ body {
 }
 
 .btn {
-    border-radius: 30px;
+    border-radius: 60px;
 }
 
 header,
@@ -180,6 +171,25 @@ nav .btn.login {
 
 main .section-1 .wrapper {
     width: 60%;
+    text-align: center;
+    padding: 200px;
+}
+
+main .section-1 .wrapper h1 {
+    font-size: 70px;
+}
+
+main .section-1 .wrapper p {
+    font-size: 30px;
+    padding: 80px 0 70px;
+    line-height: 45px;
+    text-align: justify;
+}
+
+main .section-1 .wrapper .btn {
+    padding: 30px;
+    font-size: 30px;
+    margin: 30px;
 }
 
 /* SECTION 2 */
