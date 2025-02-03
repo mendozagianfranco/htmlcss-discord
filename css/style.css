@@ -12,11 +12,6 @@ button {
 
 /**** DEBUG ****/
 
-.debug .section-5 .wrapper {
-    background-color: #228b22;
-    height: 900px;
-}
-
 .debug .section-6 .wrapper {
     background-color: #228b22;
 }
@@ -92,6 +87,7 @@ body {
 
 .btn {
     border-radius: 60px;
+    padding: 15px 25px;
 }
 
 header,
@@ -114,7 +110,7 @@ nav {
     width: 80%;
 }
 
-.wrapper .content img {
+.wrapper img {
     width: 100%;
 }
 
@@ -127,15 +123,10 @@ nav .links {
     width: 700px;
     flex-shrink: 0;
 }
-
 .wrapper p {
     line-height: 45px;
     text-align: justify;
     padding: 80px 0;
-}
-
-main .wrapper > .content {
-    padding: 50px;
 }
 
 /**** HEADER ***/
@@ -159,7 +150,6 @@ nav .links {
 
 nav .btn.login {
     text-align: center;
-    padding: 15px 25px;
 }
 
 /***** MAIN ****/
@@ -205,6 +195,29 @@ main .section-4 .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* SECTION 5 */
+
+main .section-5 .wrapper h2,
+main .section-5 p {
+    text-align: center;
+}
+
+main .section-5 .wrapper div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .section-5 .wrapper div h2 {
+    padding: 50px;
+    margin-bottom: 100px;
+    background-image: url(/img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
 
 /***** FOOTER *****/
