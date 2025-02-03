@@ -79,6 +79,10 @@ button {
     font-size: 30px;
 }
 
+.font-3 {
+    font-size: 45px;
+}
+
 /**** COMMON *****/
 
 body {
@@ -209,11 +213,12 @@ main .section-5 .wrapper div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 main .section-5 .wrapper div h2 {
-    padding: 50px;
-    margin-bottom: 100px;
+    padding: 60px;
+    margin-bottom: 80px;
     background-image: url(/img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
