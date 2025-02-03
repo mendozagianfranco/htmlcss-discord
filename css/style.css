@@ -12,16 +12,6 @@ button {
 
 /**** DEBUG ****/
 
-.debug .section-4 .content-1 {
-    background-color: #1e90ff;
-    height: 500px;
-}
-
-.debug .section-4 .content-2 {
-    background-color: #ffc0cb;
-    height: 500px;
-}
-
 .debug .section-5 .wrapper {
     background-color: #228b22;
     height: 900px;
@@ -136,13 +126,16 @@ nav .links {
 .wrapper .content-2 {
     width: 700px;
     flex-shrink: 0;
-    padding: 30px;
 }
 
 .wrapper p {
     line-height: 45px;
     text-align: justify;
     padding: 80px 0;
+}
+
+main .wrapper > .content {
+    padding: 50px;
 }
 
 /**** HEADER ***/
