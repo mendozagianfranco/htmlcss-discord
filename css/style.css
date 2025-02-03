@@ -14,16 +14,6 @@ ul {
     list-style-type: none;
 }
 
-/**** DEBUG ****/
-
-.debug .section-7 .wrapper {
-    background-color: #7fffd4;
-}
-
-.debug .section-7 .wrapper > * {
-    background-color: #ffb6c1;
-}
-
 /***** UTILITIES ******/
 
 .bg-1 {
@@ -86,12 +76,11 @@ body {
 }
 
 header,
-footer .section-7,
 .section-7 .wrapper {
     padding: 15px 0;
 }
 
-.section {
+main .section {
     padding: 50px 0;
 }
 
@@ -118,21 +107,21 @@ main .wrapper .content-2 {
     width: 700px;
     flex-shrink: 0;
 }
+
 .wrapper p {
     line-height: 45px;
     text-align: justify;
     padding: 80px 0;
 }
 
+.logo img {
+    height: 100%;
+}
 /**** HEADER ***/
 
 nav {
     display: flex;
     font-size: 25px;
-}
-
-nav .logo img {
-    height: 100%;
 }
 
 nav .links {
@@ -221,7 +210,6 @@ main .section-5 .wrapper div h2 {
 /* SECTION 6 */
 
 footer .section-6 {
-    border-bottom: 1px solid #c4c4c4;
     padding-top: 5px;
 }
 
@@ -266,17 +254,9 @@ footer .section-6 .wrapper {
 
 /* SECTION 7 */
 
-footer .section-7 {
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-}
-
 footer .section-7 .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.section-7 .wrapper > * {
-    padding: 5px;
+    border-top: 1px solid #4d5a87;
 }
